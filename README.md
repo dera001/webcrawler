@@ -12,9 +12,9 @@
  
 ***
 
-# 52 million complete results with 
+# complete results with 
 
-a. the Card name, 
+a. products name, 
 b. date sold, 
 c. price sold, 
 d. shipping cost and 
