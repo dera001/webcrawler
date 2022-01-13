@@ -32,8 +32,6 @@ All of the previous categories will be extracted to different columns in an csv
 7. https://mavin.io/search?q=&cat=2956 scraped
 8. https://mavin.io/search?q=&cat=25583 scraped
 
-# Items LEFT TO BE SCRAPED
-
 * Note the page number at the end of the url !!
 [ I call it the item number ] 
 e.g 262055 in https://mavin.io/search?q=&cat=262055
@@ -68,7 +66,7 @@ e.g 262055 in https://mavin.io/search?q=&cat=262055
 
 open cmd or terminal and run this command
 
-~~sh
+~~~sh
 
 pip install bs4, requests
 
@@ -89,9 +87,9 @@ And it scrapes all results corresponding to the said item number
 - The only line that needs modification is [ line 11 ] .... 
 Bcoz of the remaining items that needs to be scraped. so let the program scrape tons of information as its relates to a specific item, you can check the [ log.csv ] file if the number of items scraped are up to 7 million, kill the program by ;
 
-~~sh
+~~~sh
 Ctrl + C
-~~
+~~~
 
 - Don't worry there will not be any duplicate results
 
@@ -104,10 +102,10 @@ Ctrl + C
 1. Open CMD or bash console in the project folder
 2. Type in this command to run
 
-~~sh
+~~~sh
 
 python main.py
 
-~~
+~~~
 
 ## ALL THE BEST
